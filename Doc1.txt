@@ -1,25 +1,10 @@
-Team 1 : Michael Zayden Elgin
-:writing*hand: \*\*\_Sporting Event System [SES]*\*\*  
-SES is an application which allows users to manage various sporting events.
-Users can:
-Manage teams and players
-Manage tournaments and matches
-Manage fields 
-Manage tickets
-
 Must Have -- 
 Tournament, Match Name, 
 Date, Time, Price, Book Tickets, Payment Type , Location 
-Different prices (VIP, Standard), Seat Map 
+Different prices (Standard, Child, Senior), Seat Map 
   
 Should Have -- Login
 
 Could Have -- Live Stream On Website , Promotion 
 
 Will Not Have -- advertisments, multiple logins
-
-
-Research Links 
-https://ticketmaster.sg/
-https://www.sistic.com.sg/
-https://members.myactivesg.com/facilities
