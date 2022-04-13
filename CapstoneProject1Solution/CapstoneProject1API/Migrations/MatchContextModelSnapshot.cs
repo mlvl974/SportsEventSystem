@@ -25,10 +25,25 @@ namespace CapstoneProject1API.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Capacity")
-                        .HasColumnType("int");
+                    b.Property<string>("Date")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Location")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeamA")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeamAURL")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeamB")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeamBURL")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Time")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

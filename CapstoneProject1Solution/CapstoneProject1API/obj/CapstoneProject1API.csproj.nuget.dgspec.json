@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elgin\\Documents\\Visual Studio 2022\\Job Trainning\\MyOwn\\Capstone Project\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj": {}
+    "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elgin\\Documents\\Visual Studio 2022\\Job Trainning\\MyOwn\\Capstone Project\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj": {
+    "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elgin\\Documents\\Visual Studio 2022\\Job Trainning\\MyOwn\\Capstone Project\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
+        "projectUniqueName": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
         "projectName": "CapstoneProject1API",
-        "projectPath": "C:\\Users\\elgin\\Documents\\Visual Studio 2022\\Job Trainning\\MyOwn\\Capstone Project\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
+        "projectPath": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
         "packagesPath": "C:\\Users\\elgin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elgin\\Documents\\Visual Studio 2022\\Job Trainning\\MyOwn\\Capstone Project\\CapstoneProject1Solution\\CapstoneProject1API\\obj\\",
+        "outputPath": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

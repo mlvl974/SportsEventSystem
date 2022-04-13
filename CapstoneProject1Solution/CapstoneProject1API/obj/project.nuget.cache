@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e+0+ZbY47KMwQOYhSfyF33luqyg5ZiiJeyH5IqTITG+ureUMhpmpuYPUwMb6inkZDUJA75LxctTwJL0HAGgj1g==",
+  "dgSpecHash": "Xs0kueG+lqjcFxVdRczYeDFz4COe29He+ty+jIeYWTgkplsrnBYhAdEhnAT14zxAQpHHiwHNdlE0b9bYCcJgbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elgin\\Documents\\Visual Studio 2022\\Job Trainning\\MyOwn\\Capstone Project\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
+  "projectFilePath": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elgin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\elgin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

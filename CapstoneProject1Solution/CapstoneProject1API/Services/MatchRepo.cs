@@ -74,9 +74,19 @@ namespace CapstoneProject1API.Services
         {
             try
             {
+                //var match = await Get(item.Id);
+                //match.Capacity = item.Capacity;
+                //match.Name = item.Name;
+                //await _context.SaveChangesAsync();
+                //return item;
                 var match = await Get(item.Id);
-                match.Capacity = item.Capacity;
-                match.Name = item.Name;
+                match.TeamA = item.TeamA;
+                match.TeamAURL = item.TeamAURL;
+                match.Time = item.Time;
+                match.TeamB = item.TeamB;
+                match.TeamBURL = item.TeamBURL;
+                match.Date = item.Date;
+                match.Location = item.Location;
                 await _context.SaveChangesAsync();
                 return item;
             }
