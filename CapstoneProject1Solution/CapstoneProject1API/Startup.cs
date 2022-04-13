@@ -28,6 +28,10 @@ namespace CapstoneProject1API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(corsOptions => corsOptions.AddPolicy("forSPAPolicy", builder =>
+            {
+                builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+            }));
             services.AddDbContext<MatchContext>(opts =>
             {
                 opts.UseSqlServer(Configuration.GetConnectionString("conn"));
@@ -53,7 +57,7 @@ namespace CapstoneProject1API
             }
 
             app.UseRouting();
-
+            app.UseCors("forSPAPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
