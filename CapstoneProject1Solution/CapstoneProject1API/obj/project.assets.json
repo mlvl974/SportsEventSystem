@@ -5978,23 +5978,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elgin\\.nuget\\packages\\": {},
+    "C:\\Users\\labim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
+      "projectUniqueName": "C:\\Users\\labim\\Documents\\SportsEventSystem\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
       "projectName": "CapstoneProject1API",
-      "projectPath": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
-      "packagesPath": "C:\\Users\\elgin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elgin\\Documents\\GitHub\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\obj\\",
+      "projectPath": "C:\\Users\\labim\\Documents\\SportsEventSystem\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\CapstoneProject1API.csproj",
+      "packagesPath": "C:\\Users\\labim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\labim\\Documents\\SportsEventSystem\\SportsEventSystem\\CapstoneProject1Solution\\CapstoneProject1API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\elgin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\labim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6054,7 +6054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

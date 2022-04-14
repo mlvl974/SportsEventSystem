@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CapstoneProject1API.Migrations
 {
     [DbContext(typeof(MatchContext))]
-    [Migration("20220413044426_init")]
+    [Migration("20220414062326_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
