@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="col-md-6">
+    <h2 class="text-center">{{ playerformlabel }}</h2>
+
+    <form [formGroup]="addForm">
+      <div class="form-group">
+        <label for="playerId">Player Id:</label>
+        <input type="number" formControlName="id" class="form-control" />
+      </div>
+
+      <!-- Team A -->
+      <div class="form-group">
+        <label for="TeamName">Team Name:</label>
+        <input
+          formControlName="TeamName"
+          placeholder="Insert Team"
+          name="TeamName"
+          class="form-control"
+          id="TeamName"
+        />
+      </div>
+
+      <!-- validation -->
+      <!-- <span
+          *ngIf="
+            !addForm.get('match_team_A').valid &&
+            addForm.get('match_team_A').touched
+          "
+          class="help-block"
+          >Please enter a valid name!</span
+        > -->
+
+      <!-- Date String -->
+      <div class="form-group">
+        <label for="FullName">FullName:</label>
+        <input
+          formControlName="FullName"
+          placeholder="Insert Name"
+          name="FullName"
+          class="form-control"
+          id="FullName"
+        />
+      </div>
+
+      <!--Jersey Number-->
+      <div class="form-group">
+        <label for="JerseyNumber">Jersey Number:</label>
+        <input
+          formControlName="JerseyNumber"
+          placeholder="Jersey Number"
+          name="JerseyNumber"
+          class="form-control"
+          id="JerseyNumber"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="FieldPosition">Field Position:</label>
+        <input
+          formControlName="FieldPosition"
+          placeholder="Jersey Number"
+          name="FieldPosition"
+          class="form-control"
+          id="FieldPosition"
+        />
+      </div>
+
+      <br />
+      <button class="btn btn-success" (click)="onUpdate()">Save</button>
+
+      <!-- <button
+      class="btn btn-success"
+      [disabled]="addForm.invalid"
+      (click)="onSubmit()"
+    >
+      Save
+    </button> -->
+
+      <br />
+      <p>Form value: {{ addForm.value }}</p>
+      <p>Form value: {{ addForm.value | json }}</p>
+      <pre>{{ addForm.value | json }}</pre>
+    </form>
+  </div>
+</div>

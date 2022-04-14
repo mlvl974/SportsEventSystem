@@ -1,0 +1,160 @@
+<div class="container">
+  <div class="col-md-6">
+    <h2 class="text-center">{{ matchformlabel }}</h2>
+
+    <form [formGroup]="addForm">
+      <div class="form-group">
+        <label for="Id">Match Id:</label>
+        <input type="number" formControlName="id" class="form-control" />
+      </div>
+
+      <br />
+      <!-- Team A -->
+      <div class="form-group">
+        <label for="TeamA">Team A:</label>
+        <input
+          formControlName="TeamA"
+          placeholder="Insert Team"
+          name="TeamA"
+          class="form-control"
+          id="TeamA"
+        />
+      </div>
+
+      <span
+        class="help-block"
+        *ngIf="
+          addForm.get('TeamA')?.hasError('required') &&
+          addForm.get('TeamA')?.touched
+        "
+      >
+        TeamA Name is required.
+      </span>
+
+      <!-- Image URL A -->
+      <div class="form-group">
+        <label for="TeamAURL">Image URL:</label>
+        <input
+          formControlName="TeamAURL"
+          placeholder="Insert URL"
+          name="TeamAURL"
+          class="form-control"
+          id="TeamAURL"
+        />
+      </div>
+
+      <br />
+      <!-- Team B-->
+      <div class="form-group">
+        <label for="TeamB">Team B:</label>
+        <input
+          formControlName="TeamB"
+          placeholder="Insert Team B"
+          name="TeamB"
+          class="form-control"
+          id="TeamB"
+        />
+      </div>
+
+      <!-- Image URL B -->
+      <div class="form-group">
+        <label for="TeamBURL">Image URL:</label>
+        <input
+          formControlName="TeamBURL"
+          placeholder="Insert URL"
+          name="TeamBURL"
+          class="form-control"
+          id="TeamBURL"
+        />
+      </div>
+
+      <!-- Date String -->
+      <div class="form-group">
+        <label for="Date">Date:</label>
+        <input
+          formControlName="Date"
+          placeholder="dd-mm-yyyy"
+          name="Date"
+          class="form-control"
+          id="Date"
+        />
+      </div>
+
+      <!-- Date Picker  -->
+      <!-- <div class="form-group">
+        <label for="Date" class="col-1 col-form-label">Date</label>
+        <div class="input-group">
+          <input
+            class="form-control"
+            placeholder="yyyy-mm-dd"
+            name="dp"
+            [(ngModel)]="model"
+            ngbDatepicker
+            #d="ngbDatepicker"
+          />
+          <button
+            class="btn btn-outline-secondary calendar"
+            (click)="d.toggle()"
+            type="button"
+          >
+            <i class="bi bi-calendar-week"></i>
+          </button>
+        </div>
+      </div> -->
+
+      <!-- time-->
+      <div class="form-group">
+        <label for="Time">Time:</label>
+
+        <!-- <select class="form-control" aria-label="Default select example">
+          <option selected>Select Kick off</option>
+          <option value="01:00 AM">01:00 AM</option>
+          <option value="02:00 AM">02:00 AM</option>
+          <option value="04:00 AM">04:00 AM</option>
+        </select> -->
+
+        <!-- <input
+          formControlName="Time"
+          placeholder="Insert Time"
+          name="Time"
+          class="form-control"
+          id="Time"
+        /> -->
+      </div>
+
+      <div class="radio" *ngFor="let time of times">
+        <label>
+          <input type="radio" formControlName="time" [value]="time" />{{ time }}
+        </label>
+      </div>
+
+      <!-- Location-->
+      <div class="form-group">
+        <label for="Location">Location:</label>
+        <input
+          formControlName="Location"
+          placeholder="Insert Location"
+          name="Location"
+          class="form-control"
+          id="Location"
+        />
+      </div>
+
+      <br />
+      <button class="btn btn-success" (click)="onUpdate()">Save</button>
+
+      <!-- <button
+    class="btn btn-success"
+    [disabled]="addForm.invalid"
+    (click)="onSubmit()"
+  >
+    Save
+  </button> -->
+
+      <br />
+      <p>Form value: {{ addForm.value }}</p>
+      <p>Form value: {{ addForm.value | json }}</p>
+      <pre>{{ addForm.value | json }}</pre>
+    </form>
+  </div>
+</div>

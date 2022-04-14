@@ -1,0 +1,32 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "TeamName": "Bayern Munich",
+      "FullName": " Robert Lewandowski",
+      "JerseyNumber": 9,
+      "FieldPosition": "Forward"
+    },
+    {
+      "id": 2,
+      "TeamName": "Liverpool",
+      "FullName": "Mohamed Salah",
+      "JerseyNumber": 11,
+      "FieldPosition": "Forward"
+    },
+    {
+      "id": 3,
+      "TeamName": "Manchester United",
+      "FullName": "David De Gea",
+      "JerseyNumber": 1,
+      "FieldPosition": "GoalKeeper"
+    },
+    {
+      "id": 4,
+      "TeamName": "Man City",
+      "FullName": "Ruben Dias",
+      "JerseyNumber": 3,
+      "FieldPosition": "Defender"
+    }
+  ]
+}

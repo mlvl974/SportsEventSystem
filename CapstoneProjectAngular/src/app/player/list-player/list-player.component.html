@@ -1,0 +1,54 @@
+<br /><br />
+
+<br /><br />
+<div class="col-md-12">
+  <h2>
+    Player Details
+    <button
+      (click)="addPlayer()"
+      style="margin-left: 1100px"
+      class="btn btn-success"
+    >
+      <i class="bi bi-plus-square"></i> Player
+    </button>
+  </h2>
+  <br />
+  <div class="table-responsive table-container table table-striped">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Team</th>
+          <th>Full Name</th>
+          <th>Jersey Number</th>
+          <th>Field Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of players">
+          <td class="hidden">{{ player.id }}</td>
+          <td>{{ player.TeamName }}</td>
+          <td>{{ player.FullName }}</td>
+          <td>{{ player.JerseyNumber }}</td>
+          <td>{{ player.FieldPosition }}</td>
+
+          <td>
+            <!-- delete btn -->
+            <button (click)="deletePlayer(player)" class="btn btn-warning">
+              <i class="bi bi-trash-fill"></i>
+            </button>
+
+            <!-- edit btn -->
+            <button
+              (click)="editPlayer(player)"
+              style="margin-left: 20px"
+              class="btn btn-info text-white"
+            >
+              <i class="bi bi-pencil-fill"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
