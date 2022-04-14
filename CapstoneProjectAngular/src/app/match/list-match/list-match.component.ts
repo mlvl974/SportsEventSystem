@@ -35,6 +35,9 @@ export class ListMatchComponent implements OnInit {
   deleteMatch(match: Match): void {
     this.matchService.deleteMatch(match.id).subscribe((match) => {
       this.matches = this.matches.filter((match) => match !== match);
+      alert('Match Deleted!');
+      console.log('Data Deleted!');
+      this.router.navigate(['list-match']);
     });
   }
 

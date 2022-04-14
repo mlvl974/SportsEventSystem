@@ -37,8 +37,8 @@ export class AddMatchComponent implements OnInit {
 
   onSubmit() {
     console.log('Match details sent to server!');
-    console.log(this.addForm?.value);
-    this.matchService.createMatch(this.addForm?.value).subscribe((data) => {
+    console.log(this.addForm.value);
+    this.matchService.createMatch(this.addForm.value).subscribe((data) => {
       alert('Match added!');
       console.log('Data sent to the web api and database!');
       this.router.navigate(['list-match']);
